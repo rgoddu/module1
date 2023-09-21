@@ -3,14 +3,14 @@
     padding: 0;
     margin: 0;
 }
-
+/* Header background - includes Horiseon logo and links */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Header logo and links on the same line */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -36,21 +36,22 @@ header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* labels all white text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* default background color */
 body {
     background-color: #d9dcd6;
 }
 
 
-
+/* text color in paragraphs defaults to white */
 p {
     font-size: 16px;
 }
-
+/* image of meeting in foreground of webpage */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +61,25 @@ p {
     background-position: center;
 }
 
+/* wraps text with image to left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* wraps text with image to right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* default settings for the 'content' area */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* 'clear: both' dedicates the whole line to the image so that no text wraps to the left/right */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -135,6 +139,7 @@ p {
     max-width: 150px;
 }
 
+/* sets box-model values for advertised content area */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -188,7 +193,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* formatting for footer */
 footer {
     padding: 30px;
     clear: both;
